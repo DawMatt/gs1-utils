@@ -1,0 +1,2738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<despatch_advice:despatchAdviceMessage xmlns="http://www.iata.org/IATA/2015/00/2020.2/despatchAdviceMessage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iata.org/IATA/2015/00/2020.2/despatchAdviceMessage ../despatchAdviceMessage.xsd">
+  <sh:StandardBusinessDocumentHeader>
+    <sh:HeaderVersion>UNKNOWN</sh:HeaderVersion>
+    <sh:Sender>
+      <sh:Identifier Authority="String">String</sh:Identifier>
+      <sh:ContactInformation>
+        <sh:Contact>UNKNOWN</sh:Contact>
+        <sh:EmailAddress>UNKNOWN</sh:EmailAddress>
+        <sh:FaxNumber>UNKNOWN</sh:FaxNumber>
+        <sh:TelephoneNumber>UNKNOWN</sh:TelephoneNumber>
+        <sh:ContactTypeIdentifier>UNKNOWN</sh:ContactTypeIdentifier>
+      </sh:ContactInformation>
+    </sh:Sender>
+    <sh:Receiver>
+      <sh:Identifier Authority="String">String</sh:Identifier>
+      <sh:ContactInformation>
+        <sh:Contact>UNKNOWN</sh:Contact>
+        <sh:EmailAddress>UNKNOWN</sh:EmailAddress>
+        <sh:FaxNumber>UNKNOWN</sh:FaxNumber>
+        <sh:TelephoneNumber>UNKNOWN</sh:TelephoneNumber>
+        <sh:ContactTypeIdentifier>UNKNOWN</sh:ContactTypeIdentifier>
+      </sh:ContactInformation>
+    </sh:Receiver>
+    <sh:DocumentIdentification>
+      <sh:Standard>UNKNOWN</sh:Standard>
+      <sh:TypeVersion>UNKNOWN</sh:TypeVersion>
+      <sh:InstanceIdentifier>UNKNOWN</sh:InstanceIdentifier>
+      <sh:Type>UNKNOWN</sh:Type>
+      <sh:MultipleType>UNKNOWN</sh:MultipleType>
+      <sh:CreationDateAndTime>UNKNOWN</sh:CreationDateAndTime>
+    </sh:DocumentIdentification>
+    <sh:Manifest>
+      <sh:NumberOfItems>UNKNOWN</sh:NumberOfItems>
+      <sh:ManifestItem>
+        <sh:MimeTypeQualifierCode>String</sh:MimeTypeQualifierCode>
+        <sh:UniformResourceIdentifier>UNKNOWN</sh:UniformResourceIdentifier>
+        <sh:Description>UNKNOWN</sh:Description>
+        <sh:LanguageCode>String</sh:LanguageCode>
+      </sh:ManifestItem>
+    </sh:Manifest>
+    <sh:BusinessScope>
+      <sh:Scope>
+        <sh:Type>UNKNOWN</sh:Type>
+        <sh:InstanceIdentifier>UNKNOWN</sh:InstanceIdentifier>
+        <sh:Identifier>UNKNOWN</sh:Identifier>
+        <sh:ScopeInformation>
+          <_ANY_/>
+        </sh:ScopeInformation>
+      </sh:Scope>
+    </sh:BusinessScope>
+  </sh:StandardBusinessDocumentHeader>
+  <despatchAdvice>
+    <creationDateTime>UNKNOWN</creationDateTime>
+    <documentStatusCode>String</documentStatusCode>
+    <documentActionCode>String</documentActionCode>
+    <documentStructureVersion>String</documentStructureVersion>
+    <lastUpdateDateTime>UNKNOWN</lastUpdateDateTime>
+    <revisionNumber>UNKNOWN</revisionNumber>
+    <extension>
+      <_ANY_/>
+    </extension>
+    <documentEffectiveDate>
+      <date>UNKNOWN</date>
+      <time>UNKNOWN</time>
+    </documentEffectiveDate>
+    <avpList>
+      <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+    </avpList>
+    <despatchAdviceIdentification>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+    </despatchAdviceIdentification>
+    <deliveryTypeCode codeListVersion="UNKNOWN">UNKNOWN</deliveryTypeCode>
+    <rackIDAtPickUpLocation>String</rackIDAtPickUpLocation>
+    <totalDepositAmount currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</totalDepositAmount>
+    <note languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</note>
+    <totalNumberOfLines>UNKNOWN</totalNumberOfLines>
+    <receiver>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </receiver>
+    <shipper>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </shipper>
+    <buyer>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </buyer>
+    <seller>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </seller>
+    <shipTo>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </shipTo>
+    <inventoryLocation>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </inventoryLocation>
+    <shipFrom>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </shipFrom>
+    <pickUpLocation>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </pickUpLocation>
+    <carrier>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </carrier>
+    <ultimateConsignee>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </ultimateConsignee>
+    <freightForwarder>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </freightForwarder>
+    <invoicee>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </invoicee>
+    <logisticServiceProvider>
+      <gln>String</gln>
+      <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      <address>
+        <city>String</city>
+        <cityCode>String</cityCode>
+        <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+        <countyCode>String</countyCode>
+        <crossStreet>String</crossStreet>
+        <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+        <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+        <name>String</name>
+        <pOBoxNumber>String</pOBoxNumber>
+        <postalCode>String</postalCode>
+        <provinceCode>String</provinceCode>
+        <state>String</state>
+        <streetAddressOne>String</streetAddressOne>
+        <streetAddressTwo>String</streetAddressTwo>
+        <streetAddressThree>String</streetAddressThree>
+        <geographicalCoordinates>
+          <latitude>String</latitude>
+          <longitude>String</longitude>
+        </geographicalCoordinates>
+      </address>
+      <contact>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </contact>
+      <dutyFeeTaxRegistration>
+        <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+        <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+        <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+        <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+        <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+      </dutyFeeTaxRegistration>
+      <organisationDetails>
+        <organisationName>String</organisationName>
+        <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+        <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+        <officialAddress>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </officialAddress>
+        <legalRegistration>
+          <legalRegistrationNumber>String</legalRegistrationNumber>
+          <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+          <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+        </legalRegistration>
+      </organisationDetails>
+      <financialInstitutionInformation>
+        <financialInstitutionName>String</financialInstitutionName>
+        <financialInstitutionBranchName>String</financialInstitutionBranchName>
+        <financialAccount>
+          <financialAccountNumber>String</financialAccountNumber>
+          <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+          <financialAccountName>String</financialAccountName>
+        </financialAccount>
+        <financialRoutingNumber>
+          <financialRoutingNumber>String</financialRoutingNumber>
+          <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+        </financialRoutingNumber>
+        <additionalFinancialInformation>
+          <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+        </additionalFinancialInformation>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+      </financialInstitutionInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </logisticServiceProvider>
+    <despatchInformation>
+      <actualShipDateTime>UNKNOWN</actualShipDateTime>
+      <despatchDateTime>UNKNOWN</despatchDateTime>
+      <estimatedDeliveryDateTime>UNKNOWN</estimatedDeliveryDateTime>
+      <estimatedDeliveryDateTimeAtUltimateConsignee>UNKNOWN</estimatedDeliveryDateTimeAtUltimateConsignee>
+      <loadingDateTime>UNKNOWN</loadingDateTime>
+      <pickUpDateTime>UNKNOWN</pickUpDateTime>
+      <releaseDateTimeOfSupplier>UNKNOWN</releaseDateTimeOfSupplier>
+      <estimatedDeliveryPeriod>
+        <beginDate>UNKNOWN</beginDate>
+        <beginTime>UNKNOWN</beginTime>
+        <endDate>UNKNOWN</endDate>
+        <endTime>UNKNOWN</endTime>
+      </estimatedDeliveryPeriod>
+    </despatchInformation>
+    <despatchAdviceTransportInformation>
+      <transportMeansID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</transportMeansID>
+      <transportMeansName>String</transportMeansName>
+      <transportModeCode codeListVersion="UNKNOWN">UNKNOWN</transportModeCode>
+      <routeID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</routeID>
+      <transportMeansType codeListVersion="UNKNOWN">UNKNOWN</transportMeansType>
+      <billOfLadingNumber>
+        <entityIdentification>String</entityIdentification>
+        <contentOwner>
+          <gln>String</gln>
+          <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+        </contentOwner>
+        <creationDateTime>UNKNOWN</creationDateTime>
+        <revisionNumber>UNKNOWN</revisionNumber>
+        <lineItemNumber>UNKNOWN</lineItemNumber>
+        <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+      </billOfLadingNumber>
+      <consignmentIdentification>
+        <ginc>String</ginc>
+        <additionalConsignmentIdentification additionalConsignmentIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalConsignmentIdentification>
+      </consignmentIdentification>
+      <shipmentIdentification>
+        <gsin>String</gsin>
+        <additionalShipmentIdentification additionalShipmentIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalShipmentIdentification>
+      </shipmentIdentification>
+      <deliveryTerms>
+        <incotermsCode codeListVersion="UNKNOWN">UNKNOWN</incotermsCode>
+        <alternateDeliveryTermsCode codeDescription="UNKNOWN" codeListAgencyCode="UNKNOWN" codeListAgencyCodeListVersion="UNKNOWN" codeListAgencyName="UNKNOWN" codeListName="UNKNOWN" codeListURI="String" codeListVersion="UNKNOWN">UNKNOWN</alternateDeliveryTermsCode>
+        <deliveryInstructions languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</deliveryInstructions>
+        <deliveryCostPayment codeListVersion="UNKNOWN">UNKNOWN</deliveryCostPayment>
+        <isSignatureRequired>String</isSignatureRequired>
+        <deliveryTermsLocation>
+          <unLocationCode codeListVersion="UNKNOWN">UNKNOWN</unLocationCode>
+          <gln>String</gln>
+          <additionalLocationIdentification identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</additionalLocationIdentification>
+          <sublocationIdentification>String</sublocationIdentification>
+          <locationName>String</locationName>
+          <locationSpecificInstructions languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</locationSpecificInstructions>
+          <utcOffset>UNKNOWN</utcOffset>
+          <address>
+            <city>String</city>
+            <cityCode>String</cityCode>
+            <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+            <countyCode>String</countyCode>
+            <crossStreet>String</crossStreet>
+            <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+            <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+            <name>String</name>
+            <pOBoxNumber>String</pOBoxNumber>
+            <postalCode>String</postalCode>
+            <provinceCode>String</provinceCode>
+            <state>String</state>
+            <streetAddressOne>String</streetAddressOne>
+            <streetAddressTwo>String</streetAddressTwo>
+            <streetAddressThree>String</streetAddressThree>
+            <geographicalCoordinates>
+              <latitude>String</latitude>
+              <longitude>String</longitude>
+            </geographicalCoordinates>
+          </address>
+          <contact>
+            <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+            <personName>String</personName>
+            <departmentName>String</departmentName>
+            <jobTitle>String</jobTitle>
+            <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+            <communicationChannel>
+              <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+              <communicationValue>String</communicationValue>
+              <communicationChannelName>String</communicationChannelName>
+            </communicationChannel>
+            <afterHoursCommunicationChannel>
+              <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+              <communicationValue>String</communicationValue>
+              <communicationChannelName>String</communicationChannelName>
+            </afterHoursCommunicationChannel>
+          </contact>
+          <regularOperatingHours>
+            <dayOfTheWeekCode>String</dayOfTheWeekCode>
+            <isOperational>UNKNOWN</isOperational>
+            <closingTime>UNKNOWN</closingTime>
+            <openingTime>UNKNOWN</openingTime>
+          </regularOperatingHours>
+          <specialOperatingHours>
+            <isOperational>UNKNOWN</isOperational>
+            <specialDate>UNKNOWN</specialDate>
+            <closingTime>UNKNOWN</closingTime>
+            <openingTime>UNKNOWN</openingTime>
+            <specialDateName languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</specialDateName>
+          </specialOperatingHours>
+        </deliveryTermsLocation>
+      </deliveryTerms>
+      <carrierTrackAndTraceInformation>
+        <carrierTrackAndTraceURL>https://mixvel.com/</carrierTrackAndTraceURL>
+        <packageTrackingNumber>String</packageTrackingNumber>
+      </carrierTrackAndTraceInformation>
+      <driver>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </driver>
+      <receiver>
+        <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+        <personName>String</personName>
+        <departmentName>String</departmentName>
+        <jobTitle>String</jobTitle>
+        <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+        <communicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </communicationChannel>
+        <afterHoursCommunicationChannel>
+          <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+          <communicationValue>String</communicationValue>
+          <communicationChannelName>String</communicationChannelName>
+        </afterHoursCommunicationChannel>
+      </receiver>
+      <driverID>
+        <personName>String</personName>
+        <dateOfBirth>UNKNOWN</dateOfBirth>
+        <gender>String</gender>
+        <nationality codeListVersion="UNKNOWN">UNKNOWN</nationality>
+        <identityDocument>
+          <identityDocumentNumber>String</identityDocumentNumber>
+          <identityDocumentType codeListVersion="UNKNOWN">UNKNOWN</identityDocumentType>
+          <identityDocumentIssuer>String</identityDocumentIssuer>
+        </identityDocument>
+      </driverID>
+      <receiverID>
+        <personName>String</personName>
+        <dateOfBirth>UNKNOWN</dateOfBirth>
+        <gender>String</gender>
+        <nationality codeListVersion="UNKNOWN">UNKNOWN</nationality>
+        <identityDocument>
+          <identityDocumentNumber>String</identityDocumentNumber>
+          <identityDocumentType codeListVersion="UNKNOWN">UNKNOWN</identityDocumentType>
+          <identityDocumentIssuer>String</identityDocumentIssuer>
+        </identityDocument>
+      </receiverID>
+      <transportSeal>
+        <sealIdentification identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</sealIdentification>
+        <sealTypeCode codeListVersion="UNKNOWN">UNKNOWN</sealTypeCode>
+        <sealAffixingPartyRole codeListVersion="UNKNOWN">UNKNOWN</sealAffixingPartyRole>
+        <sealConditionCode codeListVersion="UNKNOWN">UNKNOWN</sealConditionCode>
+      </transportSeal>
+    </despatchAdviceTransportInformation>
+    <endCustomerRelatedDetails>
+      <deliveryMethod codeListVersion="UNKNOWN">UNKNOWN</deliveryMethod>
+      <ultimateCustomer>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+        <contact>
+          <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+          <personName>String</personName>
+          <departmentName>String</departmentName>
+          <jobTitle>String</jobTitle>
+          <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+          <communicationChannel>
+            <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+            <communicationValue>String</communicationValue>
+            <communicationChannelName>String</communicationChannelName>
+          </communicationChannel>
+          <afterHoursCommunicationChannel>
+            <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+            <communicationValue>String</communicationValue>
+            <communicationChannelName>String</communicationChannelName>
+          </afterHoursCommunicationChannel>
+        </contact>
+        <dutyFeeTaxRegistration>
+          <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+          <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+          <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+          <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+          <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+        </dutyFeeTaxRegistration>
+        <organisationDetails>
+          <organisationName>String</organisationName>
+          <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+          <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+          <officialAddress>
+            <city>String</city>
+            <cityCode>String</cityCode>
+            <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+            <countyCode>String</countyCode>
+            <crossStreet>String</crossStreet>
+            <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+            <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+            <name>String</name>
+            <pOBoxNumber>String</pOBoxNumber>
+            <postalCode>String</postalCode>
+            <provinceCode>String</provinceCode>
+            <state>String</state>
+            <streetAddressOne>String</streetAddressOne>
+            <streetAddressTwo>String</streetAddressTwo>
+            <streetAddressThree>String</streetAddressThree>
+            <geographicalCoordinates>
+              <latitude>String</latitude>
+              <longitude>String</longitude>
+            </geographicalCoordinates>
+          </officialAddress>
+          <legalRegistration>
+            <legalRegistrationNumber>String</legalRegistrationNumber>
+            <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+            <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+          </legalRegistration>
+        </organisationDetails>
+        <financialInstitutionInformation>
+          <financialInstitutionName>String</financialInstitutionName>
+          <financialInstitutionBranchName>String</financialInstitutionBranchName>
+          <financialAccount>
+            <financialAccountNumber>String</financialAccountNumber>
+            <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+            <financialAccountName>String</financialAccountName>
+          </financialAccount>
+          <financialRoutingNumber>
+            <financialRoutingNumber>String</financialRoutingNumber>
+            <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+          </financialRoutingNumber>
+          <additionalFinancialInformation>
+            <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+          </additionalFinancialInformation>
+          <address>
+            <city>String</city>
+            <cityCode>String</cityCode>
+            <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+            <countyCode>String</countyCode>
+            <crossStreet>String</crossStreet>
+            <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+            <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+            <name>String</name>
+            <pOBoxNumber>String</pOBoxNumber>
+            <postalCode>String</postalCode>
+            <provinceCode>String</provinceCode>
+            <state>String</state>
+            <streetAddressOne>String</streetAddressOne>
+            <streetAddressTwo>String</streetAddressTwo>
+            <streetAddressThree>String</streetAddressThree>
+            <geographicalCoordinates>
+              <latitude>String</latitude>
+              <longitude>String</longitude>
+            </geographicalCoordinates>
+          </address>
+        </financialInstitutionInformation>
+        <avpList>
+          <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+        </avpList>
+      </ultimateCustomer>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+    </endCustomerRelatedDetails>
+    <despatchAdviceTotals>
+      <packageTotal>
+        <packageTypeCode codeListVersion="UNKNOWN">UNKNOWN</packageTypeCode>
+        <totalPackageQuantity>UNKNOWN</totalPackageQuantity>
+        <totalGrossVolume measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</totalGrossVolume>
+        <totalGrossWeight measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</totalGrossWeight>
+        <returnablePackaging>
+          <packagingQuantity>UNKNOWN</packagingQuantity>
+          <currentHolderRegistration identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</currentHolderRegistration>
+          <newHolderRegistration identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</newHolderRegistration>
+          <packagingConditionCode codeListVersion="UNKNOWN">UNKNOWN</packagingConditionCode>
+          <returnableAssetIdentification>
+            <grai>String</grai>
+            <additionalReturnableAssetIdentification additionalReturnableAssetIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalReturnableAssetIdentification>
+          </returnableAssetIdentification>
+          <individualReturnableAssetIdentification>
+            <grai>String</grai>
+            <additionalReturnableAssetIdentification additionalReturnableAssetIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalReturnableAssetIdentification>
+          </individualReturnableAssetIdentification>
+        </returnablePackaging>
+      </packageTotal>
+      <unitMeasurement>
+        <measurementType codeListVersion="UNKNOWN">UNKNOWN</measurementType>
+        <measurementValue measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</measurementValue>
+      </unitMeasurement>
+      <despatchAdviceItemTotal>
+        <unitMeasurement>
+          <measurementType codeListVersion="UNKNOWN">UNKNOWN</measurementType>
+          <measurementValue measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</measurementValue>
+        </unitMeasurement>
+        <tradeItemIdentification>
+          <gtin>String</gtin>
+          <additionalTradeItemIdentification additionalTradeItemIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalTradeItemIdentification>
+        </tradeItemIdentification>
+      </despatchAdviceItemTotal>
+    </despatchAdviceTotals>
+    <deliveryNote>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </deliveryNote>
+    <purchaseOrder>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </purchaseOrder>
+    <contract>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </contract>
+    <declarantsCustomsIdentity>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </declarantsCustomsIdentity>
+    <productCertification>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </productCertification>
+    <specification>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </specification>
+    <purchaseConditions>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </purchaseConditions>
+    <blanketOrder>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </blanketOrder>
+    <orderResponse>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </orderResponse>
+    <promotionalDeal>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </promotionalDeal>
+    <deliverySchedule>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </deliverySchedule>
+    <transportInstruction>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </transportInstruction>
+    <returnsInstruction>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </returnsInstruction>
+    <invoice>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </invoice>
+    <customerDocumentReference>
+      <entityIdentification>String</entityIdentification>
+      <contentOwner>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+      </contentOwner>
+      <creationDateTime>UNKNOWN</creationDateTime>
+      <revisionNumber>UNKNOWN</revisionNumber>
+      <lineItemNumber>UNKNOWN</lineItemNumber>
+      <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+    </customerDocumentReference>
+    <splitDeliveryReference>
+      <totalNumberOfCorrespondingDespatchAdvices>UNKNOWN</totalNumberOfCorrespondingDespatchAdvices>
+      <correspondingDespatchAdvice>
+        <entityIdentification>String</entityIdentification>
+        <contentOwner>
+          <gln>String</gln>
+          <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+        </contentOwner>
+        <creationDateTime>UNKNOWN</creationDateTime>
+        <revisionNumber>UNKNOWN</revisionNumber>
+        <lineItemNumber>UNKNOWN</lineItemNumber>
+        <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+      </correspondingDespatchAdvice>
+    </splitDeliveryReference>
+    <transactionalGenericReference>
+      <transactionalReferenceTypeCode codeListVersion="UNKNOWN">UNKNOWN</transactionalReferenceTypeCode>
+      <transactionalReferenceValue>String</transactionalReferenceValue>
+      <transactionalReferenceDateTime>UNKNOWN</transactionalReferenceDateTime>
+    </transactionalGenericReference>
+    <despatchAdviceLogisticUnit>
+      <levelIdentification>UNKNOWN</levelIdentification>
+      <parentLevelIdentification>UNKNOWN</parentLevelIdentification>
+      <packageTypeCode codeListVersion="UNKNOWN">UNKNOWN</packageTypeCode>
+      <quantityOfLogisticUnits>UNKNOWN</quantityOfLogisticUnits>
+      <childPackageTypeCode codeListVersion="UNKNOWN">UNKNOWN</childPackageTypeCode>
+      <quantityOfChildren>UNKNOWN</quantityOfChildren>
+      <logisticUnitIdentification>
+        <sscc>String</sscc>
+        <additionalLogisticUnitIdentification additionalLogisticUnitIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalLogisticUnitIdentification>
+      </logisticUnitIdentification>
+      <logisticUnitMeasurement>
+        <dimension>
+          <depth measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</depth>
+          <height measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</height>
+          <width measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</width>
+        </dimension>
+        <unitMeasurement>
+          <measurementType codeListVersion="UNKNOWN">UNKNOWN</measurementType>
+          <measurementValue measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</measurementValue>
+        </unitMeasurement>
+      </logisticUnitMeasurement>
+      <returnablePackaging>
+        <packagingQuantity>UNKNOWN</packagingQuantity>
+        <currentHolderRegistration identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</currentHolderRegistration>
+        <newHolderRegistration identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</newHolderRegistration>
+        <packagingConditionCode codeListVersion="UNKNOWN">UNKNOWN</packagingConditionCode>
+        <returnableAssetIdentification>
+          <grai>String</grai>
+          <additionalReturnableAssetIdentification additionalReturnableAssetIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalReturnableAssetIdentification>
+        </returnableAssetIdentification>
+        <individualReturnableAssetIdentification>
+          <grai>String</grai>
+          <additionalReturnableAssetIdentification additionalReturnableAssetIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalReturnableAssetIdentification>
+        </individualReturnableAssetIdentification>
+      </returnablePackaging>
+      <individualAssetIdentification>
+        <giai>String</giai>
+        <additionalIndividualAssetIdentification additionalIndividualAssetIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalIndividualAssetIdentification>
+      </individualAssetIdentification>
+      <carrierTrackAndTraceInformation>
+        <carrierTrackAndTraceURL>https://mixvel.com/</carrierTrackAndTraceURL>
+        <packageTrackingNumber>String</packageTrackingNumber>
+      </carrierTrackAndTraceInformation>
+      <avpList>
+        <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+      </avpList>
+      <estimatedDeliveryDateTimeAtUltimateConsignee>UNKNOWN</estimatedDeliveryDateTimeAtUltimateConsignee>
+      <parentLogisticUnitId>
+        <sscc>String</sscc>
+        <additionalLogisticUnitIdentification additionalLogisticUnitIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalLogisticUnitIdentification>
+      </parentLogisticUnitId>
+      <ultimateConsignee>
+        <gln>String</gln>
+        <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+        <address>
+          <city>String</city>
+          <cityCode>String</cityCode>
+          <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+          <countyCode>String</countyCode>
+          <crossStreet>String</crossStreet>
+          <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+          <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+          <name>String</name>
+          <pOBoxNumber>String</pOBoxNumber>
+          <postalCode>String</postalCode>
+          <provinceCode>String</provinceCode>
+          <state>String</state>
+          <streetAddressOne>String</streetAddressOne>
+          <streetAddressTwo>String</streetAddressTwo>
+          <streetAddressThree>String</streetAddressThree>
+          <geographicalCoordinates>
+            <latitude>String</latitude>
+            <longitude>String</longitude>
+          </geographicalCoordinates>
+        </address>
+        <contact>
+          <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+          <personName>String</personName>
+          <departmentName>String</departmentName>
+          <jobTitle>String</jobTitle>
+          <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+          <communicationChannel>
+            <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+            <communicationValue>String</communicationValue>
+            <communicationChannelName>String</communicationChannelName>
+          </communicationChannel>
+          <afterHoursCommunicationChannel>
+            <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+            <communicationValue>String</communicationValue>
+            <communicationChannelName>String</communicationChannelName>
+          </afterHoursCommunicationChannel>
+        </contact>
+        <dutyFeeTaxRegistration>
+          <dutyFeeTaxRegistrationID identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationID>
+          <dutyFeeTaxTypeCode codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxTypeCode>
+          <dutyFeeTaxAgencyName>String</dutyFeeTaxAgencyName>
+          <dutyFeeTaxDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxDescription>
+          <dutyFeeTaxRegistrationType codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxRegistrationType>
+        </dutyFeeTaxRegistration>
+        <organisationDetails>
+          <organisationName>String</organisationName>
+          <issuedCapital currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</issuedCapital>
+          <legalStructure languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</legalStructure>
+          <officialAddress>
+            <city>String</city>
+            <cityCode>String</cityCode>
+            <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+            <countyCode>String</countyCode>
+            <crossStreet>String</crossStreet>
+            <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+            <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+            <name>String</name>
+            <pOBoxNumber>String</pOBoxNumber>
+            <postalCode>String</postalCode>
+            <provinceCode>String</provinceCode>
+            <state>String</state>
+            <streetAddressOne>String</streetAddressOne>
+            <streetAddressTwo>String</streetAddressTwo>
+            <streetAddressThree>String</streetAddressThree>
+            <geographicalCoordinates>
+              <latitude>String</latitude>
+              <longitude>String</longitude>
+            </geographicalCoordinates>
+          </officialAddress>
+          <legalRegistration>
+            <legalRegistrationNumber>String</legalRegistrationNumber>
+            <legalRegistrationType codeListVersion="UNKNOWN">UNKNOWN</legalRegistrationType>
+            <legalRegistrationAdditionalInformation>String</legalRegistrationAdditionalInformation>
+          </legalRegistration>
+        </organisationDetails>
+        <financialInstitutionInformation>
+          <financialInstitutionName>String</financialInstitutionName>
+          <financialInstitutionBranchName>String</financialInstitutionBranchName>
+          <financialAccount>
+            <financialAccountNumber>String</financialAccountNumber>
+            <financialAccountNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialAccountNumberTypeCode>
+            <financialAccountName>String</financialAccountName>
+          </financialAccount>
+          <financialRoutingNumber>
+            <financialRoutingNumber>String</financialRoutingNumber>
+            <financialRoutingNumberTypeCode codeListVersion="UNKNOWN">UNKNOWN</financialRoutingNumberTypeCode>
+          </financialRoutingNumber>
+          <additionalFinancialInformation>
+            <description languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</description>
+          </additionalFinancialInformation>
+          <address>
+            <city>String</city>
+            <cityCode>String</cityCode>
+            <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+            <countyCode>String</countyCode>
+            <crossStreet>String</crossStreet>
+            <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+            <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+            <name>String</name>
+            <pOBoxNumber>String</pOBoxNumber>
+            <postalCode>String</postalCode>
+            <provinceCode>String</provinceCode>
+            <state>String</state>
+            <streetAddressOne>String</streetAddressOne>
+            <streetAddressTwo>String</streetAddressTwo>
+            <streetAddressThree>String</streetAddressThree>
+            <geographicalCoordinates>
+              <latitude>String</latitude>
+              <longitude>String</longitude>
+            </geographicalCoordinates>
+          </address>
+        </financialInstitutionInformation>
+        <avpList>
+          <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+        </avpList>
+      </ultimateConsignee>
+      <despatchAdviceLineItem>
+        <lineItemNumber>UNKNOWN</lineItemNumber>
+        <despatchedQuantity measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</despatchedQuantity>
+        <countryOfLastProcessing codeListVersion="UNKNOWN">UNKNOWN</countryOfLastProcessing>
+        <countryOfOrigin codeListVersion="UNKNOWN">UNKNOWN</countryOfOrigin>
+        <extension>
+          <_ANY_/>
+        </extension>
+        <freeGoodsQuantity measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</freeGoodsQuantity>
+        <handlingInstructionCode codeListVersion="UNKNOWN">UNKNOWN</handlingInstructionCode>
+        <parentLineItemNumber>UNKNOWN</parentLineItemNumber>
+        <note languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</note>
+        <requestedQuantity measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</requestedQuantity>
+        <pickUpDateTime>UNKNOWN</pickUpDateTime>
+        <actualProcessedQuantity measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</actualProcessedQuantity>
+        <dutyFeeTaxLiability codeListVersion="UNKNOWN">UNKNOWN</dutyFeeTaxLiability>
+        <firstInFirstOutDateTime>UNKNOWN</firstInFirstOutDateTime>
+        <hasItemBeenScannedAtPos>String</hasItemBeenScannedAtPos>
+        <inventoryStatusType codeListVersion="UNKNOWN">UNKNOWN</inventoryStatusType>
+        <transactionalTradeItem>
+          <gtin>String</gtin>
+          <additionalTradeItemIdentification additionalTradeItemIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalTradeItemIdentification>
+          <tradeItemQuantity measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</tradeItemQuantity>
+          <tradeItemDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</tradeItemDescription>
+          <productVariantIdentifier>String</productVariantIdentifier>
+          <itemTypeCode codeListVersion="UNKNOWN">UNKNOWN</itemTypeCode>
+          <tradeItemDataOwner codeListVersion="UNKNOWN">UNKNOWN</tradeItemDataOwner>
+          <butterFatReference>String</butterFatReference>
+          <transactionalItemData>
+            <availableForSaleDate>UNKNOWN</availableForSaleDate>
+            <batchNumber>String</batchNumber>
+            <bestBeforeDate>UNKNOWN</bestBeforeDate>
+            <countryOfOrigin codeListVersion="UNKNOWN">UNKNOWN</countryOfOrigin>
+            <itemExpirationDate>UNKNOWN</itemExpirationDate>
+            <lotNumber>String</lotNumber>
+            <packagingDate>UNKNOWN</packagingDate>
+            <productionDate>UNKNOWN</productionDate>
+            <productQualityIndication measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</productQualityIndication>
+            <sellByDate>UNKNOWN</sellByDate>
+            <serialNumber>String</serialNumber>
+            <shelfLife>String</shelfLife>
+            <tradeItemQuantity measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</tradeItemQuantity>
+            <itemInContactWithFoodProduct>UNKNOWN</itemInContactWithFoodProduct>
+            <transactionalItemWeight>
+              <measurementType codeListVersion="UNKNOWN">UNKNOWN</measurementType>
+              <measurementValue measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</measurementValue>
+            </transactionalItemWeight>
+            <transactionalItemVolume>
+              <measurementType codeListVersion="UNKNOWN">UNKNOWN</measurementType>
+              <measurementValue measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</measurementValue>
+            </transactionalItemVolume>
+            <serialNumberRange>
+              <maximumValue>UNKNOWN</maximumValue>
+              <minimumValue>UNKNOWN</minimumValue>
+            </serialNumberRange>
+            <transactionalItemDimensions>
+              <depth measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</depth>
+              <height measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</height>
+              <width measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</width>
+            </transactionalItemDimensions>
+            <transactionalItemLogisticUnitInformation>
+              <numberOfLayers>UNKNOWN</numberOfLayers>
+              <numberOfUnitsPerLayer>UNKNOWN</numberOfUnitsPerLayer>
+              <numberOfUnitsPerPallet>UNKNOWN</numberOfUnitsPerPallet>
+              <packagingTerms codeListVersion="UNKNOWN">UNKNOWN</packagingTerms>
+              <packageTypeCode codeListVersion="UNKNOWN">UNKNOWN</packageTypeCode>
+              <maximumStackingFactor>UNKNOWN</maximumStackingFactor>
+              <returnablePackageTransportCostPayment codeListVersion="UNKNOWN">UNKNOWN</returnablePackageTransportCostPayment>
+              <dimensionsOfLogisticUnit>
+                <depth measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</depth>
+                <height measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</height>
+                <width measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</width>
+              </dimensionsOfLogisticUnit>
+            </transactionalItemLogisticUnitInformation>
+            <transactionalItemDataCarrierAndIdentification>
+              <gs1TransactionalItemIdentificationKey codeListVersion="UNKNOWN">UNKNOWN</gs1TransactionalItemIdentificationKey>
+              <dataCarrier codeListVersion="UNKNOWN">UNKNOWN</dataCarrier>
+            </transactionalItemDataCarrierAndIdentification>
+            <tradeItemWaste>
+              <wasteIdentification>String</wasteIdentification>
+              <typeOfWaste codeDescription="UNKNOWN" codeListAgencyCode="UNKNOWN" codeListAgencyCodeListVersion="UNKNOWN" codeListAgencyName="UNKNOWN" codeListName="UNKNOWN" codeListURI="String" codeListVersion="UNKNOWN">UNKNOWN</typeOfWaste>
+            </tradeItemWaste>
+            <transactionalItemOrganicInformation>
+              <isTradeItemOrganic>UNKNOWN</isTradeItemOrganic>
+              <organicCertification>
+                <itemCertificationAgency>String</itemCertificationAgency>
+                <itemCertificationStandard>String</itemCertificationStandard>
+                <itemCertificationValue>String</itemCertificationValue>
+              </organicCertification>
+            </transactionalItemOrganicInformation>
+            <avpList>
+              <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+            </avpList>
+          </transactionalItemData>
+          <colour>
+            <colourCode colourCodeListCode="UNKNOWN" colourCodeListDescription="UNKNOWN" codeListVersion="UNKNOWN" colourCodeListVersion="UNKNOWN">UNKNOWN</colourCode>
+            <colourDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</colourDescription>
+          </colour>
+          <size>
+            <descriptiveSize languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</descriptiveSize>
+            <sizeCode sizeCodeListCode="UNKNOWN" sizeCodeListDescription="UNKNOWN" codeListVersion="UNKNOWN" sizeCodeListVersion="UNKNOWN">UNKNOWN</sizeCode>
+          </size>
+          <tradeItemClassification>
+            <gpcCategoryCode>String</gpcCategoryCode>
+            <additionalTradeItemClassificationCode additionalTradeItemClassificationCodeListCode="UNKNOWN" additionalTradeItemClassificationCodeListVersion="UNKNOWN" codeDescription="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalTradeItemClassificationCode>
+            <gpcCategoryName>String</gpcCategoryName>
+            <gpcAttribute>
+              <gpcAttributeTypeCode>String</gpcAttributeTypeCode>
+              <gpcAttributeValueCode>String</gpcAttributeValueCode>
+              <gpcAttributeTypeName>String</gpcAttributeTypeName>
+              <gpcAttributeValueName>String</gpcAttributeValueName>
+            </gpcAttribute>
+          </tradeItemClassification>
+          <avpList>
+            <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+          </avpList>
+        </transactionalTradeItem>
+        <requestedItemIdentification>
+          <gtin>String</gtin>
+          <additionalTradeItemIdentification additionalTradeItemIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalTradeItemIdentification>
+        </requestedItemIdentification>
+        <despatchAdviceQuantityVariance>
+          <varianceReasonCode codeListVersion="UNKNOWN">UNKNOWN</varianceReasonCode>
+          <varianceQuantity measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</varianceQuantity>
+          <deliveryDateVariance>UNKNOWN</deliveryDateVariance>
+          <remainingQuantityStatusCode codeListVersion="UNKNOWN">UNKNOWN</remainingQuantityStatusCode>
+        </despatchAdviceQuantityVariance>
+        <dangerousGoodsInformation>
+          <dangerousGoodsUNIdentifier identificationSchemeAgencyCode="UNKNOWN" identificationSchemeAgencyCodeCodeListVersion="UNKNOWN" identificationSchemeAgencyName="UNKNOWN" identificationSchemeName="UNKNOWN">UNKNOWN</dangerousGoodsUNIdentifier>
+          <dangerousGoodsShippingName languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dangerousGoodsShippingName>
+          <dangerousGoodsTechnicalName languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dangerousGoodsTechnicalName>
+          <dangerousGoodsDescription languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</dangerousGoodsDescription>
+          <contact>
+            <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+            <personName>String</personName>
+            <departmentName>String</departmentName>
+            <jobTitle>String</jobTitle>
+            <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+            <communicationChannel>
+              <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+              <communicationValue>String</communicationValue>
+              <communicationChannelName>String</communicationChannelName>
+            </communicationChannel>
+            <afterHoursCommunicationChannel>
+              <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+              <communicationValue>String</communicationValue>
+              <communicationChannelName>String</communicationChannelName>
+            </afterHoursCommunicationChannel>
+          </contact>
+          <dangerousGoodsRegulationInformation>
+            <dangerousGoodsRegulationCode codeListVersion="UNKNOWN">UNKNOWN</dangerousGoodsRegulationCode>
+            <dangerousGoodsRegulationName>String</dangerousGoodsRegulationName>
+            <dangerousGoodsHazardClass>String</dangerousGoodsHazardClass>
+            <dangerousGoodsPackingGroup>String</dangerousGoodsPackingGroup>
+            <dangerousGoodsAttribute>
+              <dangerousGoodsAttributeTypeCode codeListVersion="UNKNOWN">UNKNOWN</dangerousGoodsAttributeTypeCode>
+              <dangerousGoodsAttributeText>String</dangerousGoodsAttributeText>
+              <dangerousGoodsAttributeMeasurement measurementUnitCode="UNKNOWN" codeListVersion="UNKNOWN">10</dangerousGoodsAttributeMeasurement>
+              <dangerousGoodsAttributeIndicator>UNKNOWN</dangerousGoodsAttributeIndicator>
+              <dangerousGoodsAttributeDateTime>UNKNOWN</dangerousGoodsAttributeDateTime>
+            </dangerousGoodsAttribute>
+          </dangerousGoodsRegulationInformation>
+        </dangerousGoodsInformation>
+        <locationOfOrigin>
+          <partyIdentification>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </partyIdentification>
+          <address>
+            <city>String</city>
+            <cityCode>String</cityCode>
+            <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+            <countyCode>String</countyCode>
+            <crossStreet>String</crossStreet>
+            <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+            <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+            <name>String</name>
+            <pOBoxNumber>String</pOBoxNumber>
+            <postalCode>String</postalCode>
+            <provinceCode>String</provinceCode>
+            <state>String</state>
+            <streetAddressOne>String</streetAddressOne>
+            <streetAddressTwo>String</streetAddressTwo>
+            <streetAddressThree>String</streetAddressThree>
+            <geographicalCoordinates>
+              <latitude>String</latitude>
+              <longitude>String</longitude>
+            </geographicalCoordinates>
+          </address>
+          <contactInformation>
+            <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+            <personName>String</personName>
+            <departmentName>String</departmentName>
+            <jobTitle>String</jobTitle>
+            <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+            <communicationChannel>
+              <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+              <communicationValue>String</communicationValue>
+              <communicationChannelName>String</communicationChannelName>
+            </communicationChannel>
+            <afterHoursCommunicationChannel>
+              <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+              <communicationValue>String</communicationValue>
+              <communicationChannelName>String</communicationChannelName>
+            </afterHoursCommunicationChannel>
+          </contactInformation>
+        </locationOfOrigin>
+        <locationOfLastProcessing>
+          <partyIdentification>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </partyIdentification>
+          <address>
+            <city>String</city>
+            <cityCode>String</cityCode>
+            <countryCode codeListVersion="UNKNOWN">UNKNOWN</countryCode>
+            <countyCode>String</countyCode>
+            <crossStreet>String</crossStreet>
+            <currencyOfPartyCode codeListVersion="UNKNOWN">UNKNOWN</currencyOfPartyCode>
+            <languageOfThePartyCode codeListVersion="UNKNOWN">UNKNOWN</languageOfThePartyCode>
+            <name>String</name>
+            <pOBoxNumber>String</pOBoxNumber>
+            <postalCode>String</postalCode>
+            <provinceCode>String</provinceCode>
+            <state>String</state>
+            <streetAddressOne>String</streetAddressOne>
+            <streetAddressTwo>String</streetAddressTwo>
+            <streetAddressThree>String</streetAddressThree>
+            <geographicalCoordinates>
+              <latitude>String</latitude>
+              <longitude>String</longitude>
+            </geographicalCoordinates>
+          </address>
+          <contactInformation>
+            <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+            <personName>String</personName>
+            <departmentName>String</departmentName>
+            <jobTitle>String</jobTitle>
+            <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+            <communicationChannel>
+              <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+              <communicationValue>String</communicationValue>
+              <communicationChannelName>String</communicationChannelName>
+            </communicationChannel>
+            <afterHoursCommunicationChannel>
+              <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+              <communicationValue>String</communicationValue>
+              <communicationChannelName>String</communicationChannelName>
+            </afterHoursCommunicationChannel>
+          </contactInformation>
+        </locationOfLastProcessing>
+        <referencedConsignment>
+          <ginc>String</ginc>
+          <additionalConsignmentIdentification additionalConsignmentIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalConsignmentIdentification>
+        </referencedConsignment>
+        <productCertification>
+          <entityIdentification>String</entityIdentification>
+          <contentOwner>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </contentOwner>
+          <creationDateTime>UNKNOWN</creationDateTime>
+          <revisionNumber>UNKNOWN</revisionNumber>
+          <lineItemNumber>UNKNOWN</lineItemNumber>
+          <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+        </productCertification>
+        <promotionalDeal>
+          <entityIdentification>String</entityIdentification>
+          <contentOwner>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </contentOwner>
+          <creationDateTime>UNKNOWN</creationDateTime>
+          <revisionNumber>UNKNOWN</revisionNumber>
+          <lineItemNumber>UNKNOWN</lineItemNumber>
+          <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+        </promotionalDeal>
+        <customerReference>
+          <entityIdentification>String</entityIdentification>
+          <contentOwner>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </contentOwner>
+          <creationDateTime>UNKNOWN</creationDateTime>
+          <revisionNumber>UNKNOWN</revisionNumber>
+          <lineItemNumber>UNKNOWN</lineItemNumber>
+          <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+        </customerReference>
+        <specification>
+          <entityIdentification>String</entityIdentification>
+          <contentOwner>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </contentOwner>
+          <creationDateTime>UNKNOWN</creationDateTime>
+          <revisionNumber>UNKNOWN</revisionNumber>
+          <lineItemNumber>UNKNOWN</lineItemNumber>
+          <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+        </specification>
+        <deliveryNote>
+          <entityIdentification>String</entityIdentification>
+          <contentOwner>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </contentOwner>
+          <creationDateTime>UNKNOWN</creationDateTime>
+          <revisionNumber>UNKNOWN</revisionNumber>
+          <lineItemNumber>UNKNOWN</lineItemNumber>
+          <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+        </deliveryNote>
+        <contract>
+          <entityIdentification>String</entityIdentification>
+          <contentOwner>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </contentOwner>
+          <creationDateTime>UNKNOWN</creationDateTime>
+          <revisionNumber>UNKNOWN</revisionNumber>
+          <lineItemNumber>UNKNOWN</lineItemNumber>
+          <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+        </contract>
+        <purchaseOrder>
+          <entityIdentification>String</entityIdentification>
+          <contentOwner>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </contentOwner>
+          <creationDateTime>UNKNOWN</creationDateTime>
+          <revisionNumber>UNKNOWN</revisionNumber>
+          <lineItemNumber>UNKNOWN</lineItemNumber>
+          <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+        </purchaseOrder>
+        <purchaseConditions>
+          <entityIdentification>String</entityIdentification>
+          <contentOwner>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </contentOwner>
+          <creationDateTime>UNKNOWN</creationDateTime>
+          <revisionNumber>UNKNOWN</revisionNumber>
+          <lineItemNumber>UNKNOWN</lineItemNumber>
+          <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+        </purchaseConditions>
+        <customerDocumentReference>
+          <entityIdentification>String</entityIdentification>
+          <contentOwner>
+            <gln>String</gln>
+            <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+          </contentOwner>
+          <creationDateTime>UNKNOWN</creationDateTime>
+          <revisionNumber>UNKNOWN</revisionNumber>
+          <lineItemNumber>UNKNOWN</lineItemNumber>
+          <referencedDocumentUrl>https://mixvel.com/</referencedDocumentUrl>
+        </customerDocumentReference>
+        <totalLineAmount currencyCode="UNKNOWN" codeListVersion="UNKNOWN">-42.217E11</totalLineAmount>
+        <customer>
+          <gln>String</gln>
+          <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+        </customer>
+        <couponClearingHouse>
+          <gln>String</gln>
+          <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+        </couponClearingHouse>
+        <itemOwner>
+          <gln>String</gln>
+          <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+        </itemOwner>
+        <originalSupplier>
+          <gln>String</gln>
+          <additionalPartyIdentification additionalPartyIdentificationTypeCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</additionalPartyIdentification>
+        </originalSupplier>
+        <costAccountingContact>
+          <contactTypeCode codeListVersion="UNKNOWN">UNKNOWN</contactTypeCode>
+          <personName>String</personName>
+          <departmentName>String</departmentName>
+          <jobTitle>String</jobTitle>
+          <responsibility languageCode="UNKNOWN" codeListVersion="UNKNOWN">UNKNOWN</responsibility>
+          <communicationChannel>
+            <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+            <communicationValue>String</communicationValue>
+            <communicationChannelName>String</communicationChannelName>
+          </communicationChannel>
+          <afterHoursCommunicationChannel>
+            <communicationChannelCode codeListVersion="UNKNOWN">UNKNOWN</communicationChannelCode>
+            <communicationValue>String</communicationValue>
+            <communicationChannelName>String</communicationChannelName>
+          </afterHoursCommunicationChannel>
+        </costAccountingContact>
+        <transactionalGenericReference>
+          <transactionalReferenceTypeCode codeListVersion="UNKNOWN">UNKNOWN</transactionalReferenceTypeCode>
+          <transactionalReferenceValue>String</transactionalReferenceValue>
+          <transactionalReferenceDateTime>UNKNOWN</transactionalReferenceDateTime>
+        </transactionalGenericReference>
+        <packagingMarking>
+          <markingTypeCode codeListVersion="UNKNOWN">UNKNOWN</markingTypeCode>
+          <markingContentDateTime>UNKNOWN</markingContentDateTime>
+          <markingContentText>String</markingContentText>
+        </packagingMarking>
+        <avpList>
+          <eComStringAttributeValuePairList attributeName="UNKNOWN" qualifierCodeName="UNKNOWN" qualifierCodeList="UNKNOWN" qualifierCodeListVersion="UNKNOWN">String</eComStringAttributeValuePairList>
+        </avpList>
+      </despatchAdviceLineItem>
+    </despatchAdviceLogisticUnit>
+  </despatchAdvice>
+</despatch_advice:despatchAdviceMessage>
